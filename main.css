@@ -1,0 +1,69 @@
+body {
+    background-color: #101010;
+    color: #ffffff;
+    font-family: "Comic Sans MS", "Comic Sans";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 35px 0;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.hero {
+    margin: 100px 0;
+    margin-bottom: 185px;
+}
+
+a {
+    color: #ffffff;
+}
+
+.hero-img {
+    width: 750px;
+    height: auto;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0 auto 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.about ul li {
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid #ffffff;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 2rem;
+}
