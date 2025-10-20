@@ -40,6 +40,29 @@
     crossorigin="anonymous"
     async>
     </script>
+
+    <!-- Sección de comentarios -->
+<section id="comentarios">
+  <h2>💬 Comentarios</h2>
+  <div id="disqus_thread"></div>
+</section>
+
+<script>
+var disqus_config = function () {
+  this.page.url = "https://germaneitor.com";  // URL de tu sitio
+  this.page.identifier = window.location.pathname; // Identificador único por página
+};
+
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://germaneitor-com.disqus.com/embed.js';  // <-- cambia "germaneitor-com" por tu shortname
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Activa JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios</a>.</noscript>
+
     
 </body>
 </html>
